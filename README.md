@@ -21,7 +21,7 @@ movielens-1M: https://grouplens.org/datasets/movielens/1M/<br>
 1.
 
 
-# 참고사항
+# Note
 각 구현에 대한 논문 리뷰는 다음의 링크에서 보실 수 있습니다.<br>
 A paper review of each implementation can be found at the following link. (Only Available in Korean)<br>
 
