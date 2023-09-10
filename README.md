@@ -1,16 +1,16 @@
 # Awesome_Recsys_Implementation
-이곳은 기본부터 심화까지 추천시스템 모델과 평가지표를 구현하는 공간입니다.
-This is a space that implements recommended system models and evaluation indicators from basic to advanced.
+이곳은 기본부터 심화까지 추천시스템 모델과 평가지표를 구현하는 공간입니다.<br>
+This is a space that implements recommended system models and evaluation indicators from basic to advanced.<br>
 
 ## Language
-PyTorch
+PyTorch<br>
 
 ## Datasets
-모든 모델은 다음의 데이터셋을 사용하는 것으로 가정하고 구현했습니다.
-Every models are assumed to use the following Dataset and implemented.
+모든 모델은 다음의 데이터셋을 사용하는 것으로 가정하고 구현했습니다.<br>
+Every models are assumed to use the following Dataset and implemented.<br>
 
-movielens-100k: https://grouplens.org/datasets/movielens/100k/
-movielens-1M: https://grouplens.org/datasets/movielens/1M/
+movielens-100k: https://grouplens.org/datasets/movielens/100k/<br>
+movielens-1M: https://grouplens.org/datasets/movielens/1M/<br>
 
 # Implemented Papers
 1. 
