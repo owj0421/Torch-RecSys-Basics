@@ -17,7 +17,7 @@ movielens-1M: https://grouplens.org/datasets/movielens/1M/<br>
 
 
 
-# Implemented metrics
+# Implemented Metrics
 1.
 
 
