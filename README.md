@@ -15,7 +15,7 @@ Every models are assumed to use the following Dataset and implemented.<br>
 movielens-100k: https://grouplens.org/datasets/movielens/100k/<br>
 movielens-1M: https://grouplens.org/datasets/movielens/1M/<br>
 
-## ⚖ 🖍🖌Implemented Metric Lists
+## ⚖ Implemented Metric Lists
 1. 
 
 ## 📚 Implemented Paper Lists
