@@ -22,4 +22,7 @@ movielens-1M: https://grouplens.org/datasets/movielens/1M/<br>
 
 
 # 참고사항
-- 각 논문에 대한 paper review: https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4
+각 구현에 대한 논문 리뷰는 다음의 링크에서 보실 수 있습니다.<br>
+A paper review of each implementation can be found at the following link. (Only Available in Korean)<br>
+
+https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4
