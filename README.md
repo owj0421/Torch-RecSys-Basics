@@ -15,13 +15,17 @@ Hello! This is a space that implements recommended system models and evaluation 
 ## ⚖ Implemented Metric Lists
 |Index|Model                                                                                          |Year|Paper|Review|Implementation|
 |:---:|:----------------------------------------------------------------------------------------------|:--:|:---:|:----:|:------------:|
-|1    |Factorization machines                                                                         |2010|[Link](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf) |[Link](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)  |[Link]()  |
+|1    |Factorization machines                                                                         |2010|[Link](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf) |[Link](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4) |[Link]() |
 
 ## 📚 Implemented Paper Lists
-1. 
+|Index|Model                                                                                          |Review|Implementation|
+|:---:|:----------------------------------------------------------------------------------------------|:----:|:------------:|
+|1    |nDCG                                                                                           |[Link]() |[Link]() |
 
 ## 💯 Results
-1. 
+|Index|Model                                                                                          |A|B|
+|:---:|:----------------------------------------------------------------------------------------------|:----:|:------------:|
+|1    |nDCG                                                                                           |  |  |
 
 ## 🔔 Note
 각 구현에 대한 논문 리뷰는 다음의 링크에서 보실 수 있습니다.<br>
