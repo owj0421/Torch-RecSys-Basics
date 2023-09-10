@@ -1,4 +1,4 @@
-# <div align="center"> Awesome Recsys Implementation </div>
+# <div align="center"> Awesome Recsys <br> PyTorch Implementation </div>
 
 <div align="center"> Update 11/09/2023: Added README.md </div>
 
