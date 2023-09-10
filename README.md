@@ -1,7 +1,6 @@
-<div align="center">
-# Awesome Recsys Implementation
+# <div align="center"> Awesome Recsys Implementation </div>
+
 Update 11/09/2023: Added README.md
-</div>
 
 ## 🤗 Introduction
 
