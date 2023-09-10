@@ -1,5 +1,7 @@
-# Awesome Recsys Implementation{: .text-center }
+<div align="center">
+# Awesome Recsys Implementation
 Update 11/09/2023: Added README.md
+</div>
 
 ## 🤗 Introduction
 
