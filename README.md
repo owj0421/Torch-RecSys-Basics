@@ -12,12 +12,12 @@ Hello! This is a space that implements recommended system models and evaluation 
 [movielens-100k](https://grouplens.org/datasets/movielens/100k/)<br>
 [movielens-1M](https://grouplens.org/datasets/movielens/1M/)<br>
 
-## ⚖ Implemented Metric Lists
+## 📚 Implemented Paper Lists
 |Index|Model                                                                                          |Year|Paper|Review|Implementation|
 |:---:|:----------------------------------------------------------------------------------------------|:--:|:---:|:----:|:------------:|
 |1    |Factorization machines                                                                         |2010|[Link](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf) |[Link](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4) |[Link]() |
 
-## 📚 Implemented Paper Lists
+## ⚖ Implemented Metric Lists
 |Index|Model                                                                                          |Review|Implementation|
 |:---:|:----------------------------------------------------------------------------------------------|:----:|:------------:|
 |1    |nDCG                                                                                           |[Link]() |[Link]() |
