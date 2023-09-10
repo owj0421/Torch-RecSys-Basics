@@ -13,8 +13,11 @@ Hello! This is a space that implements recommended system models and evaluation 
 [movielens-1M](https://grouplens.org/datasets/movielens/1M/)<br>
 
 ## ⚖ Implemented Metric Lists
-1. 
-
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 ## 📚 Implemented Paper Lists
 1. 
 
