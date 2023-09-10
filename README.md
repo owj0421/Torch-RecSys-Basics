@@ -1,4 +1,4 @@
-# <div align="center"> Awesome  <br/> Recsys Implementation </div>
+# <div align="center"> Awesome Recsys Implementation </div>
 
 Update 11/09/2023: Added README.md
 
@@ -9,8 +9,8 @@ Update 11/09/2023: Added README.md
 Hello! This is a space that implements recommended system models and evaluation indicators from basic to advanced. All implementations are in Pytorch and have been implemented using the movielens dataset. I hope it will be helpful for students who find or study the recommendation system. You can write freely, but if there is something wrong with the code, please let me know.
 
 ### Datasets
-['movielens-100k']([http://www.example.com/](https://grouplens.org/datasets/movielens/100k/)){: .btn.btn-default target="_blank" }
-['movielens-1M']([http://www.example.com/](https://grouplens.org/datasets/movielens/1M/)){: .btn.btn-default target="_blank" }
+[movielens-100k](https://grouplens.org/datasets/movielens/100k/)
+[movielens-1M](https://grouplens.org/datasets/movielens/1M/)
 
 ## ⚖ Implemented Metric Lists
 1. 
