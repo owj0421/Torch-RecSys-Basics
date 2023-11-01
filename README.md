@@ -1,6 +1,6 @@
 # <div align="center"> Awesome Recsys <br> PyTorch Implementation </div>
 
-<div align="center"> Update 11/09/2023: Added README.md </div>
+<div align="center"> Update 11/09/2023: Feat: Add Metrics </div>
 
 ## 🤗 Introduction
 
@@ -20,7 +20,11 @@ Hello! This is a space that implements recommended system models and evaluation 
 ## ⚖ Implemented Metric Lists
 |Index|Model                                                                                          |Review|Implementation|
 |:---:|:----------------------------------------------------------------------------------------------|:----:|:------------:|
-|1    |nDCG                                                                                           |[Link]() |[Link]() |
+|1    |RMSE (Root Mean Squared Error)                                                                 |[Link]() |[Link]() |
+|2    |MAE (Root Mean Squared Error)                                                                  |[Link]() |[Link]() |
+|3    |MAP @ k (Mean Average Precision)                                                               |[Link]() |[Link]() |
+|4    |MRR (Mean Reciprocal Rank)                                                                     |[Link]() |[Link]() |
+|5    |nDCG (normalized Discounted Cumulative Gain)                                                   |[Link]() |[Link]() |
 
 ## 💯 Results
 |Index|Model                                                                                          |A|B|
