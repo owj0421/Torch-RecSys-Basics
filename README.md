@@ -20,7 +20,7 @@ Hello! This is a space that implements recommended system models from basic to a
 |2    |Deep FM                                                                                        |[Link](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4) |[Link]() |
 
 ### 💯 Results
-|Index|Model                                                                                          |RMSE&nbsp;&nbsp;&nbsp;|F1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|AUC&nbsp;&nbsp;&nbsp;&nbsp;|LogLoss|
+|Index|Model                                                                                          |RMSE     |F1       |AUC      |LogLoss  |
 |:---:|:----------------------------------------------------------------------------------------------|:-------:|:-------:|:-------:|:-------:|
 |1    |Factorization machines                                                                         |         |         |         |         |
 |2    |Deep FM                                                                                        |         |         |         |         |
