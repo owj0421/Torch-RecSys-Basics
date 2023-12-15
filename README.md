@@ -16,24 +16,24 @@ Hello! This is a space that implements recommended system models from basic to a
 ### ⛹️ Collaborative Filtering(Memory-Based)
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    | |         |         |         |         |
+|1    |[User-based CF]()|         |         |         |         |
+|2    |[Item-based CF]()|         |         |         |         |
 
-### ⛹️ Collaborative Filtering(Model-Based/Supervised, Classification, Regression)
+### ⛹️ Collaborative Filtering(Model-Based)
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    | |         |         |         |         |
+|1    |[SVD]() |         |         |         |         |
+|2    |[Matrix Factorization]() |         |         |         |         |
+|3    |[Matrix Factorization(BPR)]() |         |         |         |         |
+|4    |[Neural Collaborative Filtering]() |         |         |         |         |
 
-### ⛹️ Collaborative Filtering(Model-Based/Unsupervised, Latent Factor, Clustering)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    | |         |         |         |         |
 
 ### ⛹️ Session-Based Recommendation
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
-|1    |GRU4Rec                                       |         |         |         |
-|2    |BERT4Rec                                      |         |         |         |
-|3    |SASRec                                        |         |         |         |
+|1    |[GRU4Rec]()|         |         |         |
+|2    |[BERT4Rec]()|         |         |         |
+|3    |[SASRec]()|         |         |         |
 
 ### 🖱 CTR Prediction
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
