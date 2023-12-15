@@ -14,14 +14,14 @@ Hello! This is a space that implements recommended system models from basic to a
 
 ## 📚 Implemented Paper Lists
 ### 🖱 CTR Prediction
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
 |1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|         |         |         |         |
 |2    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
 
 ### ⛹️ Session-Based Recommendation
 **Results**
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
 |1    |GRU4Rec                                       |         |         |         |
 |2    |BERT4Rec                                      |         |         |         |
