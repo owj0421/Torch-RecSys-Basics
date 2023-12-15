@@ -27,6 +27,14 @@ Hello! This is a space that implements recommended system models from basic to a
 |3    |[Matrix Factorization(BPR)]() |         |         |         |         |
 |4    |[Neural Collaborative Filtering]() |         |         |         |         |
 
+### ⛹️ Collaborative Filtering(Model-Based; Self-Supervised)
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
+|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
+|5    |[AutoRec]() |         |         |         |         |
+|6    |[CDAE]() |         |         |         |         |
+|7    |[EASE]() |         |         |         |         |
+|8    |[RecVAE]() |         |         |         |         |
+
 
 ### ⛹️ Session-Based Recommendation
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
