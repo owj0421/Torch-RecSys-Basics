@@ -13,6 +13,21 @@ Hello! This is a space that implements recommended system models from basic to a
 [movielens-1M](https://grouplens.org/datasets/movielens/1M/)<br>
 
 ## 📚 Implemented Paper Lists
+### ⛹️ Collaborative Filtering(Memory-Based)
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
+|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
+|1    | |         |         |         |
+
+### ⛹️ Collaborative Filtering(Model-Based/Supervised, Classification, Regression)
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
+|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
+|1    | |         |         |         |
+
+### ⛹️ Collaborative Filtering(Model-Based/Unsupervised, Latent Factor, Clustering)
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
+|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
+|1    | |         |         |         |
+
 ### 🖱 CTR Prediction
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
@@ -20,7 +35,6 @@ Hello! This is a space that implements recommended system models from basic to a
 |2    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
 
 ### ⛹️ Session-Based Recommendation
-**Results**
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
 |1    |GRU4Rec                                       |         |         |         |
