@@ -1,6 +1,6 @@
 # <div align="center"> Torch Recsys Implementation </div>
 
-<div align="center"> Update 11/09/2023: Feat: Add Metrics </div>
+<div align="center"> Implementation of Recommendation System Models with PyTorch </div>
 
 ## 🤗 Introduction
 
