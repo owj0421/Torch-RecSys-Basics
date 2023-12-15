@@ -14,29 +14,25 @@ Hello! This is a space that implements recommended system models from basic to a
 
 ## 📚 Implemented Paper Lists
 ### ⛹️ Collaborative Filtering(Memory-Based)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    |[User-based CF]()|         |         |         |         |
-|2    |[Item-based CF]()|         |         |         |         |
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|Recall@20       |nDCG@20     |
+|:---:|:---------------------------------------------|:-------:|:-------:|
+|1    |[User-based CF]()|         |         |
+|2    |[Item-based CF]()|         |         |
 
 ### ⛹️ Collaborative Filtering(Model-Based)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    |[SVD]() |         |         |         |         |
-|2    |[Matrix Factorization]() |         |         |         |         |
-|3    |[Matrix Factorization(BPR)]() |         |         |         |         |
-|4    |[Neural Collaborative Filtering]() |         |         |         |         |
-
-### ⛹️ Collaborative Filtering(Model-Based; Self-Supervised)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |AUC      |RMSE      |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|5    |[AutoRec]() |         |         |         |         |
-|6    |[CDAE]() |         |         |         |         |
-|7    |[EASE]() |         |         |         |         |
-|8    |[RecVAE]() |         |         |         |         |
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|Recall@20       |nDCG@20     |
+|:---:|:---------------------------------------------|:-------:|:-------:|
+|1    |[SVD]() |         |         |
+|2    |[Matrix Factorization]() |         |         |
+|3    |[Matrix Factorization(BPR)]() |         |         |
+|4    |[Neural Collaborative Filtering]() |         |         |
+|5    |[AutoRec]() |         |         |
+|6    |[CDAE]() |         |         |
+|7    |[EASE]() |         |         |
+|8    |[RecVAE]() |         |         |
 
 
-### ⛹️ Session-Based Recommendation
+### ⛹️ Session-Based(Sequential)
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
 |1    |[GRU4Rec]()|         |         |         |
