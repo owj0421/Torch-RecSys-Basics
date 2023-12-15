@@ -28,18 +28,18 @@ Hello! This is a space that implements recommended system models from basic to a
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
 |1    | |         |         |         |
 
-### 🖱 CTR Prediction
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
-|1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|         |         |         |         |
-|2    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
-
 ### ⛹️ Session-Based Recommendation
 |Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
 |:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
 |1    |GRU4Rec                                       |         |         |         |
 |2    |BERT4Rec                                      |         |         |         |
 |3    |SASRec                                        |         |         |         |
+
+### 🖱 CTR Prediction
+|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
+|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
+|1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|         |         |         |         |
+|2    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
 
 ## 🔔 Note
 각 구현에 대한 논문 리뷰는 다음의 링크에서 보실 수 있습니다.<br>
