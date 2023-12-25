@@ -13,15 +13,15 @@ Hello! This is a space that implements recommended system models from basic to a
 [movielens-1M](https://grouplens.org/datasets/movielens/1M/)<br>
 
 ## 📚 Implemented Paper Lists
-### ⛹️ Collaborative Filtering(Memory-Based)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|Recall@20       |nDCG@20     |
-|:---:|:---------------------------------------------|:-------:|:-------:|
+### Collaborative Filtering(Memory-Based)
+|Index|Model(Review)|Recall@20|nDCG@20|
+|:-:|:-|:-:|:-:|
 |1    |[User-based CF]()|         |         |
 |2    |[Item-based CF]()|         |         |
 
-### ⛹️ Collaborative Filtering(Model-Based)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|Recall@20       |nDCG@20     |
-|:---:|:---------------------------------------------|:-------:|:-------:|
+### Collaborative Filtering(Model-Based)
+|Index|Model(Review)|Recall@20|nDCG@20|
+|:-:|:-|:-:|:-:|
 |1    |[SVD]() |         |         |
 |2    |[Matrix Factorization]() |         |         |
 |3    |[Matrix Factorization(BPR)]() |         |         |
@@ -32,22 +32,22 @@ Hello! This is a space that implements recommended system models from basic to a
 |8    |[RecVAE]() |         |         |
 
 
-### ⛹️ Session-Based(Sequential)
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|HR       |nDCG     |MRR      |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|
+### Session-Based(Sequential)
+|Index|Model(Review)|HR|nDCG|MRR|
+|:-:|:-|:-:|:-:|:-:|
 |1    |[GRU4Rec]()|         |         |         |
 |2    |[BERT4Rec]()|         |         |         |
 |3    |[SASRec]()|         |         |         |
 
-### 🖱 CTR Prediction
-|Index|Model(Review)　　　　　　　　　　　　　　　　　　　　　　　|RMSE     |F1       |AUC      |LogLoss  |
-|:---:|:---------------------------------------------|:-------:|:-------:|:-------:|:-------:|
+### CTR Prediction
+|Index|Model(Review)|RMSE|F1|AUC|LogLoss|
+|:-:|:-|:-:|:-:|:-:|:-:|
 |1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|         |         |         |         |
 |2    |[Wide & Deep]()|         |         |         |         |
 |3    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
 
 ## 🔔 Note
-각 구현에 대한 논문 리뷰는 다음의 링크에서 보실 수 있습니다.<br>
-A paper review of each implementation can be found at the following link. (Only Available in Korean) <br>
+각 구현에 대한 논문 리뷰는 [여기서](https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4) 보실 수 있습니다.<br>
+A paper review of each implementation can be found at [here](https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4). (Only Available in Korean) <br>
 
-https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4
+
