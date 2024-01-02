@@ -9,8 +9,7 @@
 Hello! This is a space that implements recommended system models from basic to advanced. All implementations are in Pytorch and have been implemented using the movielens dataset. I hope it will be helpful for students who find or study the recommendation system. You can write freely, but if there is something wrong with the code, please let me know.<br>
 
 ### Datasets
-[movielens-100k](https://grouplens.org/datasets/movielens/100k/)<br>
-[movielens-1M](https://grouplens.org/datasets/movielens/1M/)<br>
+[movielens-latest-small](https://grouplens.org/datasets/movielens/)<br>
 
 ## 📚 Implemented Paper Lists
 ### Collaborative Filtering(Memory-Based)

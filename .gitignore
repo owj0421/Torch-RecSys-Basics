@@ -1,0 +1,12 @@
+# model
+*.pth
+
+# data
+*.jpg
+*.png
+*.json
+
+# 수정하지 마세요.
+__pycache__
+wandb
+inference
