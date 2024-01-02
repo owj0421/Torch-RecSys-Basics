@@ -11,8 +11,8 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 from model.factorization_machine.fm import *
+from dataset.dataset import *
 from utils.trainer import *
-from utils.dataset import *
 from utils.metric import MetricCalculator
 
 import warnings
