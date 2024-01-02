@@ -12,6 +12,7 @@ from torch.utils.data import Dataset
 
 
 class MovieLensDataset(Dataset):
+    
     def __init__(
             self,
             data: pd.DataFrame,
