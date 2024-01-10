@@ -8,17 +8,23 @@ from datetime import datetime
 from dataclasses import dataclass
 import torch
 from torch.utils.data import DataLoader
-from .loss import *
-from .metric import *
-from .iteration.fm_iteration import fm_iteration
+import sys
+import torch.nn as nn
+
+import sys
+sys.path.append('F:/Projects')
+from torch_recsys_metrics.src.torch_recsys_metrics.calculator import * 
+
+from utils.iteration.fm_iteration import fm_iteration
 from typing import TYPE_CHECKING, Any, Callable, Dict, List, Optional, Tuple, Union
 
 
 @dataclass
 class TrainingArguments:
-    model_name: str = 'FM'
+    model_name: str = 'fm'
     train_batch: int = 8
     valid_batch: int = 32
+    early_stop_epoch: int = 3
     n_epochs: int = 100
     learning_rate: float = 0.01
     save_every: int = 1
@@ -53,25 +59,34 @@ class Trainer:
         self.best_state = {}
 
     def fit(self):
-        best_criterion = -np.inf
+        best_criterion = np.inf
+        early_stop_counter = 0
         for epoch in range(self.args.n_epochs):
-            loss = self._train(epoch, self.train_dataloader)
-            criterion = self._validate(epoch, self.valid_dataloader)
-            if criterion > best_criterion:
-               best_criterion = criterion
-               self.best_state['model'] = deepcopy(self.model.state_dict())
+            train_loss = self._train(epoch, self.train_dataloader)
+            valid_loss = self._validate(epoch, self.valid_dataloader)
+            if valid_loss < best_criterion:
+                best_criterion = valid_loss
+                self.best_state['model'] = deepcopy(self.model.state_dict())
+                early_stop_counter = 0
+            else:
+                early_stop_counter += 1
 
             if epoch % self.args.save_every == 0:
                 date = datetime.now().strftime('%Y-%m-%d')
                 output_dir = os.path.join(self.args.work_dir, 'checkpoints', self.args.model_name, date)
                 model_name = f'{epoch}_{best_criterion:.3f}'
                 self._save(output_dir, model_name)
+            
+            if early_stop_counter > self.args.early_stop_epoch:
+                print(f'[!] Train Early Stopped')
+                break
+
 
 
     def _train(self, epoch: int, dataloader: DataLoader):
         self.model.train()
         is_train=True
-        if self.args.model_name == 'fm':
+        if self.args.model_name in ['fm', 'deep_fm', 'wide_and_deep']:
             loss = fm_iteration(self.model, dataloader, epoch, is_train, self.device, self.metric, self.optimizer, self.scheduler, self.args.use_wandb)
         return loss
 
@@ -80,7 +95,7 @@ class Trainer:
     def _validate(self, epoch: int, dataloader: DataLoader):
         self.model.eval()
         is_train=False
-        if self.args.model_name == 'fm':
+        if self.args.model_name in ['fm', 'deep_fm', 'wide_and_deep']:
             criterion = fm_iteration(self.model, dataloader, epoch, is_train, self.device, self.metric, self.optimizer, self.scheduler, self.args.use_wandb)
         return criterion
 

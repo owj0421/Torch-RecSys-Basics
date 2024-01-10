@@ -55,8 +55,9 @@ def fm_iteration(
     # Final Log
     total_loss = total_loss / iter
     final_metric = metric.compute()
+    criterion = final_metric.criterion
     metric.clean()
     if is_train == False:
         print( f'[E N D] Epoch: {epoch + 1:03} | loss: {total_loss:.5f} ' + final_metric.get_description() + '\n')
 
-    return total_loss
+    return total_loss if is_train else criterion

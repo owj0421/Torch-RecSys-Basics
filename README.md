@@ -11,39 +11,46 @@ Hello! This is a space that implements recommended system models from basic to a
 ### Datasets
 [movielens-latest-small](https://grouplens.org/datasets/movielens/)<br>
 
-## 📚 Implemented Paper Lists
-### Collaborative Filtering(Memory-Based)
-|Index|Model(Review)|Recall@20|nDCG@20|
-|:-:|:-|:-:|:-:|
-|1    |[User-based CF]()|         |         |
-|2    |[Item-based CF]()|         |         |
+## 📚 Implement Details
+### Collaborative Filtering(Memory Based)
+|Index|Model(Review)|RMSE|nDCG@10|HR@10|F1@10|
+|:-:|:-|-:|-:|-:|-:|
+|1    |[User-based CF]()|0|0|0|0|
+|2    |[Item-based CF]()|0|0|0|0|
 
-### Collaborative Filtering(Model-Based)
-|Index|Model(Review)|Recall@20|nDCG@20|
-|:-:|:-|:-:|:-:|
-|1    |[SVD]() |         |         |
-|2    |[Matrix Factorization]() |         |         |
-|3    |[Matrix Factorization(BPR)]() |         |         |
-|4    |[Neural Collaborative Filtering]() |         |         |
-|5    |[AutoRec]() |         |         |
-|6    |[CDAE]() |         |         |
-|7    |[EASE]() |         |         |
-|8    |[RecVAE]() |         |         |
+### Collaborative Filtering(Model Based)
+|Index|Model(Review)|RMSE|nDCG@10|HR|F1@10|
+|:-:|:-|-:|-:|-:|-:|
+|1    |[SVD]()|0|0|0|0|
+|2    |[Matrix Factorization]()|0|0|0|0|
+|3    |[Neural Collaborative Filtering]()|0|0|0|0|
+
+### Collaborative Filtering(AutoEncoder Based)
+|Index|Model(Review)|RMSE|nDCG@10|HR|F1@10|
+|:-:|:-|-:|-:|-:|-:|
+|5    |[AutoRec]()|0|0|0|0|
+|6    |[CDAE]()|0|0|0|0|
+|7    |[EASE]()|0|0|0|0|
+|8    |[RecVAE]()|0|0|0|0|
 
 
-### Session-Based(Sequential)
+### Session Based(Sequential)
 |Index|Model(Review)|HR|nDCG|MRR|
 |:-:|:-|:-:|:-:|:-:|
-|1    |[GRU4Rec]()|         |         |         |
-|2    |[BERT4Rec]()|         |         |         |
-|3    |[SASRec]()|         |         |         |
+|1    |[GRU4Rec]()|0|0|0|0|0|0|
+|2    |[BERT4Rec]()|0|0|0|0|0|0|
+|3    |[SASRec]()|0|0|0|0|0|0|
 
-### CTR Prediction
+### Factorization Machine
+기본적인 코드의 구성은 deepCTR을 참고했습니다.<br>
+CTR Prediction이 아닌, 4점이상을 1, 미만을 0으로 한 Classification에 대해 학습한 결과 입니다.
 |Index|Model(Review)|RMSE|F1|AUC|LogLoss|
 |:-:|:-|:-:|:-:|:-:|:-:|
-|1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|         |         |         |         |
-|2    |[Wide & Deep]()|         |         |         |         |
-|3    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|         |         |         |         |
+|1    |[Factorization machines](https://superficial-freeze-172.notion.site/Factorization-machines-85debc8b650a40f39156be320ec46a47?pvs=4)|0.428|0.345|0.714||
+|2    |[Field Aware Factorization Machine]()|0.|0.|0.||
+|3    |[Wide & Deep]()|0.413|0.468|0.740||
+|4    |[Deep FM](https://superficial-freeze-172.notion.site/DeepFM-a-factorization-machine-based-neural-network-for-CTR-prediction-5891d516dbad413fb0da3e834c10771c?pvs=4)|0.408|0.467|0.752||
+|5    |[Adaptive Factorization Network]()|0.|0.|0.||
 
 ## 🔔 Note
 각 구현에 대한 논문 리뷰는 [여기서](https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4) 보실 수 있습니다.<br>
