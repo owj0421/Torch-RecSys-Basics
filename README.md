@@ -1,4 +1,4 @@
-# <div align="center"> Torch Recsys Implementation </div>
+# <div align="center"> Torch Recsys Implementations </div>
 
 <div align="center"> Implementation of Recommendation System Models with PyTorch </div>
 
