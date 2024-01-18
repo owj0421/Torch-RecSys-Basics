@@ -1,6 +1,6 @@
-# <div align="center"> Torch Recsys Implementations </div>
+# <div align="center"> Torch Recsys Basics </div>
 
-<div align="center"> Implementation of Recommendation System Models with PyTorch </div>
+<div align="center"> Implementation of Basic Recommendation System Models with PyTorch </div>
 
 ## 🤗 Introduction
 
