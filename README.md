@@ -4,9 +4,7 @@
 
 ## 🤗 Introduction
 
-안녕하세요! 이곳은 기본부터 심화까지 추천시스템 모델을 구현하는 공간입니다. 모든 구현은 PyTorch로 되어있으며 Movielens 데이터셋을 사용해 구현했습니다. 추천시스템을 찾거나 공부하는 학생들에게 도움이 되길 바랍니다. 자유롭게 쓸 수 있으나, 만약 코드에 잘못된 부분이 있다면 꼭 알려주세요.<br>
-
-Hello! This is a space that implements recommended system models from basic to advanced. All implementations are in Pytorch and have been implemented using the movielens dataset. I hope it will be helpful for students who find or study the recommendation system. You can write freely, but if there is something wrong with the code, please let me know.<br>
+안녕하세요! 이곳은 기본부터 심화까지 추천시스템 모델을 구현하는 공간입니다. Feature Engineering과 같은 정확도를 높히기 위한 튜닝은 배제하고 모델의 정확한 구현에 중점을 두고 구현하였습니다. 모든 구현은 PyTorch로 되어있으며 Movielens 데이터셋을 사용해 평가했습니다. 추천시스템을 찾거나 공부하는 학생들에게 도움이 되길 바랍니다. 자유롭게 쓸 수 있으나, 만약 코드에 잘못된 부분이 있다면 꼭 알려주세요.<br>
 
 ### Datasets
 [movielens-latest-small](https://grouplens.org/datasets/movielens/)<br>
@@ -54,6 +52,5 @@ CTR Prediction이 아닌, 4점이상을 1, 미만을 0으로 한 Classification�
 
 ## 🔔 Note
 각 구현에 대한 논문 리뷰는 [여기서](https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4) 보실 수 있습니다.<br>
-A paper review of each implementation can be found at [here](https://superficial-freeze-172.notion.site/e20c78a9926b47e49d0921d229f64d4f?v=e3f1f712b2cf4abb94c14730710721cf&pvs=4). (Only Available in Korean) <br>
 
 
