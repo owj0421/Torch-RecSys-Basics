@@ -4,9 +4,10 @@
 
 ## 🤗 Introduction
 
-안녕하세요! 이곳은 기초 추천시스템 모델을 AtoZ로 구현하는 공간입니다. Feature Engineering과 같은 정확도를 높히기 위한 튜닝은 배제하고 모델의 정확한 구현에 중점을 두고 구현하였습니다. 모든 구현은 PyTorch로 되어있으며 Movielens 데이터셋을 사용해 평가했습니다. 추천시스템을 찾거나 공부하는 학생들에게 도움이 되길 바랍니다. 자유롭게 쓸 수 있으나, 만약 코드에 잘못된 부분이 있다면 꼭 알려주세요.<br>
+안녕하세요! 이곳은 PyTorch를 활용해 기초 추천시스템 모델을 AtoZ로 구현하는 공간입니다. 딥러닝 연구 대부분이 Torch로 이루어짐에도, 해당 라이브러리를 사용한 제대로된 구현가이드가 없어 제작하게 되었습니다. Feature Engineering과 같은 정확도를 높히기 위한 튜닝은 배제하고 모델의 정확한 구현에 중점을 두고 구현하였습니 추천시스템을 찾거나 공부하는 학생들에게 도움이 되길 바랍니다. 자유롭게 쓸 수 있으나, 만약 코드에 잘못된 부분이 있다면 꼭 알려주세요.<br>
 
 ### Datasets
+모든 구현은 Movielens 데이터셋을 사용해 평가했습니다. 
 [movielens-latest-small](https://grouplens.org/datasets/movielens/)<br>
 
 ## 📚 Implement Details
